@@ -18,7 +18,11 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+     /* Miglior compatibilità con moduli */
+     "esModuleInterop": true, // Aggiunto per compatibilità con moduli CommonJS
+     "forceConsistentCasingInFileNames": true // Aggiunto per evitare errori di maiuscole/minuscole
   },
   "include": ["src"]
 }
