@@ -1,8 +1,15 @@
-import Layout from "../components/Layout"
+
+import HeadBar from "../components/HeadBar/HeadBar"
+import Layout from "../components/Layout/Layout"
 
 const Home : React.FC = () => {
   return (
-    <Layout/>
+    <>
+    <HeadBar />
+    <Layout>
+      <h1>Home</h1>
+    </Layout>
+    </>
   )
 }
 
